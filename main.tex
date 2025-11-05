@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{amsmath}
+\title{Notes from Proofs and Fundamentals}
+\author{Arsenio M}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Informal Logic}
+
+Law of Excluded Middle: every proposition is either true or false, with no third possibility.
+
+\[ P \lor \neg P \]
+
+Negatiion (NOT):
+
+\[
+	\begin{array}{c | c}
+		P & \neg P \\ \hline
+		\text{T} & \text{F} \\
+		\text{F} & \text{T} \\
+	\end{array}
+\]
+
+Conjunction (AND):
+
+\[
+	\begin{array}{c c | c}
+		P & Q & P \land Q \\ \hline
+		\text{T} & \text{T} & \text{T} \\
+		\text{T} & \text{F} & \text{F} \\
+		\text{F} & \text{T} & \text{F} \\
+		\text{F} & \text{F} & \text{F} \\
+	\end{array}
+\]
+
+Disjunction (inclusive OR):
+
+\[
+	\begin{array}{c c | c}
+		P & Q & P \lor Q \\ \hline
+		\text{T} & \text{T} & \text{T} \\
+		\text{T} & \text{F} & \text{T} \\
+		\text{F} & \text{T} & \text{T} \\
+		\text{F} & \text{F} & \text{F} \\
+	\end{array}
+\]
+
+Conditional (IF-THEN):
+
+\[
+	\begin{array}{c c | c}
+		P & Q & P \rightarrow Q \\ \hline
+		\text{T} & \text{T} & \text{T} \\
+		\text{T} & \text{F} & \text{F} \\
+		\text{F} & \text{T} & \text{T} \\
+		\text{F} & \text{F} & \text{T} \\
+	\end{array}
+\]
+
+Bi-conditional (???):
+
+\[
+	\begin{array}{c c | c}
+		P & Q & P \leftrightarrow Q \\ \hline
+		\text{T} & \text{T} & \text{T} \\
+		\text{T} & \text{F} & \text{F} \\
+		\text{F} & \text{T} & \text{F} \\
+		\text{F} & \text{F} & \text{T} \\
+	\end{array}
+\]
+
+\end{document}
