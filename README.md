@@ -1,3 +1,4 @@
 # math fundamentals
-- Bloch, Proofs and Fundamentals
 - Halmos, Naive Set Theory
+- Halmos, FDVS
+- Bloch, Proofs and Fundamentals
